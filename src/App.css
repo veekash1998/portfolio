@@ -1,0 +1,89 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+@import 'leaflet/dist/leaflet.css';
+
+.leaflet-container {
+  background-color: #1f2937 !important;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* Hide scrollbar for Firefox */
+.sidebar {
+  -ms-overflow-style: none; /* Hide scrollbar */
+  scrollbar-width: none; /* Hide scrollbar */
+}
+
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* Add these classes to your Tailwind config */
+.bubble-small {
+  width: 10px;
+  height: 10px;
+}
+
+.bubble-medium {
+  width: 20px;
+  height: 20px;
+}
+
+.bubble-large {
+  width: 30px;
+  height: 30px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
